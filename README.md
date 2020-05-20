@@ -1,2 +1,2 @@
 # js-variables
-practice with javascript variables and constants 
+practice with javascript variables, constants, and values (primitive & reference) 

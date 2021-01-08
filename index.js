@@ -1,14 +1,14 @@
 //Variables 
 let name = 'Maliq';// String Literal
-let surname = 'Taylor'
+let surname = "Taylor"// strings can be wrapped in double quotes 
 let age = 23;// Number Literal
 let isValid = true;// Boolean Literal
 let salary;// Undefined
-let job = null; // Mostly used as an inital value 
+let job = null; // mostly used as an inital value 
 
 /*Variable Rules
 
-a. variable names cannot be a reserved keyword(let, if, while, for, etc..)
+a. variable names cannot be reserved keywords (let, if, while, for, etc..)
 b. should be meaningful 
 c. cannot start with a number 
 d. cannot contain a space or hyphen (-)
@@ -17,7 +17,7 @@ f. are case-sensitive
 
 Variable Rules*/
 
-//------------------------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------
 
 //Constants 
 const interest = 0.3
@@ -29,7 +29,7 @@ b. if you try to re-assign value javascript will throw an error
 
 Constant Rules*/
 
-//----------------------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------
 
 //Values(two types of values)
 
@@ -47,13 +47,13 @@ b. arrays   []
 c. functions () =>
 Reference Value Types*/
 
-//------------------------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------
 
 // Objects
 const person = {
-    name: 'Maliq',
-    age: 23,
-    friends: []
+  name: 'Maliq',
+  age: 23,
+  friends: []
 };// Object Literal
 console.log(person);
 
@@ -63,7 +63,7 @@ console.log(person.name);
 // Bracket Notation(used for variables)
 console.log(person['age']);
 
-//----------------------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------
 
 //Arrays
 let friends = ['Anna', 'Yanira']// Array Literal
@@ -73,13 +73,13 @@ friends[2] = 'Josh';// The value of array indexes are malleable (easily changed)
 console.log(typeof friends);// In JS, arrays are objects
 console.log(friends.length);// All arrays have a built in length property (and more)
 
-//------------------------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------
 
 //Functions 
 
 // preforming a task (greeting)
 function greet(name, lastName) {
-    console.log(`Hello ${name} ${lastName}`);
+  console.log(`Hello ${name} ${lastName}`);
 }
 
 greet(name, surname);
@@ -89,7 +89,7 @@ greet(name, surname);
 
 // calculating a value (squaring a number)
 function square(number) {
-    return number * number
+  return number * number
 }
 
 console.log(square(2));
